@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 # Create your models here.
-class Products(models.Model):
+class Product(models.Model):
     name=models.CharField(max_length=30)
     weight=models.IntegerField()
     price=models.IntegerField()
